@@ -16,6 +16,12 @@
                     <li class="nav-item {{$activeHome ?? ''}}">
                         <a class="nav-link" href="{{ url('') }}">Home</a>
                     </li>
+                    <li class="nav-item {{$activePersona ?? ''}}">
+                        <a class="nav-link" href="{{ url('cancion') }}">Cancion</a>
+                    </li>
+                    <li class="nav-item {{$activePersona ?? ''}}">
+                        <a class="nav-link" href="{{ url('persona') }}">Persona</a>
+                    </li>
                     <li class="nav-item {{$activeBike ?? ''}}">
                         <a class="nav-link" href="{{ url('bike') }}">Bikes</a>
                     </li>
